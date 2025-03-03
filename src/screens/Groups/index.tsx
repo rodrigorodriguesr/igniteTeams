@@ -1,5 +1,6 @@
 import { Header } from '@components/Header';
 import { Highligth } from '@components/Highligth';
+import { GroupCard } from '@components/GroupCard';
 
 import { Container } from './styles';
 // import * as S from './styles'; o S serve com um Alias
@@ -13,6 +14,8 @@ export function Groups() {
         title='Turmas'
         subtitle='Jogue com a sua turma'
       />
+
+      <GroupCard title="Galera do Ignite"/>
     </Container>
   );
 };
